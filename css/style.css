@@ -440,28 +440,10 @@ a.slidebtn i{margin-left:10px;}
 /* Styling for the contact list */
 .contact-info .about-description {list-style-type: none; padding: 0;}
 .contact-info .about-description li {position:relative; display: inline; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
-.contact-info .about-description li a {text-decoration: none; color: #007bff;}
-.contact-info .about-description li a:hover {color: #007bff;}
-.contact-info .about-description li i {font-size: 1.5rem; color: #007bff;}
+.contact-info .about-description li a {text-decoration: none; color: #666;}
+.contact-info .about-description li a:hover {color: #666;}
+.contact-info .about-description li i {font-size: 1.5rem; color: #666;}
 
-/* Responsive adjustments */ 
-@media screen and (max-width: 768px) {
-    .contact-container {
-        width: 90%;
-    }
-
-    .contact-header h2 {
-        font-size: 1.5rem;
-    }
-
-    .contact-header p {
-        font-size: 0.9rem;
-    }
-
-    .contact-info .about-description li {
-        font-size: 1rem;
-    }
-}
 /*********************************************
            footer Style
 **********************************************/
