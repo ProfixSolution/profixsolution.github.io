@@ -426,6 +426,12 @@ a.slidebtn i{margin-left:10px;}
 .newletter_des .form-control{border-radius:5px; border:1px solid #f1f1f1; box-shadow none; height:58px; background:#ececec; padding:5px 80px 5px 45px;}
 .newletter_des button{background:#333; border:none; border-radius:5px; position:absolute; right:5px; top:5px; height:48px; color:#fff; padding:0px 40px; font-weight:600; text-transform:uppercase;}
 .newletter_des button:hover{background:#e3b000;}
+
+.contact-header {text-align: center; margin-bottom: 30px;}
+.contact-header h2 {font-size: 1.5rem; font-weight: 700; color: #d5d5d5;}
+.contact-header p {font-size: 1rem; color: #d5d5d5;}
+
+
 /*********************************************
            contact  
 *********************************************/
@@ -433,14 +439,12 @@ a.slidebtn i{margin-left:10px;}
 .contact-container {width: 100%; margin: 0 auto; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
 
 /* Styling for the header section */
-.contact-header {text-align: center; margin-bottom: 30px;}
-.contact-header h2 {font-size: 2rem; font-weight: 700; color: #d5d5d5;}
-.contact-header p {font-size: 1rem; color: #d5d5d5;}
+
 
 /* Styling for the contact list */
-.contact-info .about-description {list-style-type: none; padding: 0;}
-.contact-info .about-description li {position:relative; display: inline; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
-.contact-info .about-description li a {text-decoration: none; color: #d5d5d5;}
+.contact-info .about-description {list-style-type: none; padding: 150;}
+.contact-info .about-description li {position:relative; display: inline; align-items: center; font-size: 1rem; margin-bottom: 15px;}
+.contact-info .about-description li a {text-decoration: none; color: #d5d5d5; padding: 30px}
 .contact-info .about-description li a:hover {color: #666;}
 .contact-info .about-description li i {font-size: 1.5rem; color: #d5d5d5;}
 
