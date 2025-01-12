@@ -418,7 +418,8 @@ a.slidebtn i{margin-left:10px;}
 /*********************************************
            newsletter_wrap Style
 **********************************************/
-.ct_newsletter_wrap{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:73px 0px;}
+.ct_newsletter_wrap{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:93px 0px;}
+
 .newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
 .newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
 .newletter_des form{position:relative; width:55%;}
@@ -432,22 +433,11 @@ a.slidebtn i{margin-left:10px;}
 .contact-header p {font-size: 1rem; color: #d5d5d5;}
 
 .contact-info .about-description {list-style-type: none; padding: 10;}
-.contact-info .about-description li {position:relative; display: inline; align-items: center; font-size: 1rem; margin-bottom: 10px;}
+.contact-info .about-description li {position:center; display: inline; align-items: center; font-size: 1rem; margin-bottom: 10px;}
 .contact-info .about-description li a {text-decoration: none; color: #d5d5d5; padding: 30px}
 .contact-info .about-description li a:hover {color: #666;}
 .contact-info .about-description li i {font-size: 1.5rem; color: #d5d5d5;}
 
-
-/*********************************************
-           contact  
-*********************************************/
-/* Styling for the contact container */
-.contact-container {width: 100%; margin: 0 auto; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
-
-/* Styling for the header section */
-
-
-/* Styling for the contact list */
 
 
 /*********************************************
