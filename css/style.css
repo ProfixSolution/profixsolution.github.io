@@ -419,6 +419,9 @@ a.slidebtn i{margin-left:10px;}
            newsletter_wrap Style
 **********************************************/
 .contact-section{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:73px 0px;}
+.contact-contact{position:relative; display:flex; width: 50%; flex-direction:row; justify-content:space-between; align-items:center;}
+.contact-logos{position:relative; display:flex; width: 50%; flex-direction:row; justify-content:space-between; align-items:center;}
+
 
 .contact-header {position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
 .contact-header h2 {font-size: 1.5rem; font-weight: 300; color: #d5d5d5;}
