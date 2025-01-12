@@ -418,17 +418,9 @@ a.slidebtn i{margin-left:10px;}
 /*********************************************
            newsletter_wrap Style
 **********************************************/
-.ct_newsletter_wrap{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:93px 0px;}
+.contact-section{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:73px 0px;}
 
-.newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
-.newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
-.newletter_des form{position:relative; width:55%;}
-.newletter_des form label{position:absolute; top:20px; left:20px; color:#d5d5d5;}
-.newletter_des .form-control{border-radius:5px; border:1px solid #f1f1f1; box-shadow none; height:58px; background:#ececec; padding:5px 80px 5px 45px;}
-.newletter_des button{background:#333; border:none; border-radius:5px; position:absolute; right:5px; top:5px; height:48px; color:#fff; padding:0px 40px; font-weight:600; text-transform:uppercase;}
-.newletter_des button:hover{background:#e3b000;}
-
-.contact-header {text-align: center; margin-bottom: 10px;}
+.contact-header {position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
 .contact-header h2 {font-size: 1.5rem; font-weight: 300; color: #d5d5d5;}
 .contact-header p {font-size: 1rem; color: #d5d5d5;}
 
@@ -437,6 +429,15 @@ a.slidebtn i{margin-left:10px;}
 .contact-info .about-description li a {text-decoration: none; color: #d5d5d5; padding: 30px}
 .contact-info .about-description li a:hover {color: #666;}
 .contact-info .about-description li i {font-size: 1.5rem; color: #d5d5d5;}
+
+
+.newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
+.newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
+.newletter_des form{position:relative; width:55%;}
+.newletter_des form label{position:absolute; top:20px; left:20px; color:#d5d5d5;}
+.newletter_des .form-control{border-radius:5px; border:1px solid #f1f1f1; box-shadow none; height:58px; background:#ececec; padding:5px 80px 5px 45px;}
+.newletter_des button{background:#333; border:none; border-radius:5px; position:absolute; right:5px; top:5px; height:48px; color:#fff; padding:0px 40px; font-weight:600; text-transform:uppercase;}
+.newletter_des button:hover{background:#e3b000;}
 
 
 
