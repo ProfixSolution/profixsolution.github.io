@@ -434,15 +434,15 @@ a.slidebtn i{margin-left:10px;}
 
 /* Styling for the header section */
 .contact-header {text-align: center; margin-bottom: 30px;}
-.contact-header h2 {font-size: 2rem; font-weight: 700; color: #007bff;}
-.contact-header p {font-size: 1rem; color: #666;}
+.contact-header h2 {font-size: 2rem; font-weight: 700; color: #d5d5d5;}
+.contact-header p {font-size: 1rem; color: #d5d5d5;}
 
 /* Styling for the contact list */
 .contact-info .about-description {list-style-type: none; padding: 0;}
 .contact-info .about-description li {position:relative; display: inline; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
-.contact-info .about-description li a {text-decoration: none; color: #666;}
+.contact-info .about-description li a {text-decoration: none; color: #d5d5d5;}
 .contact-info .about-description li a:hover {color: #666;}
-.contact-info .about-description li i {font-size: 1.5rem; color: #666;}
+.contact-info .about-description li i {font-size: 1.5rem; color: #d5d5d5;}
 
 /*********************************************
            footer Style
