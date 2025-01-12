@@ -434,17 +434,15 @@ a.slidebtn i{margin-left:10px;}
 
 /* Styling for the header section */
 .contact-header {text-align: center; margin-bottom: 30px;}
-.contact-header h2 {font-size: 2rem; font-weight: 700; color: #333;}
+.contact-header h2 {font-size: 2rem; font-weight: 700; color: #007bff;}
 .contact-header p {font-size: 1rem; color: #666;}
 
 /* Styling for the contact list */
 .contact-info .about-description {list-style-type: none; padding: 0;}
 .contact-info .about-description li {position:relative; display: inline; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
-.contact-info .about-description li a {text-decoration: none; color: #333; padding-left: 10px;}
+.contact-info .about-description li a {text-decoration: none; color: #007bff;}
 .contact-info .about-description li a:hover {color: #007bff;}
-
-/* Icon styling */
-.contact-info .about-description li i {font-size: 2.5rem; color: #007bff;}
+.contact-info .about-description li i {font-size: 1.5rem; color: #007bff;}
 
 /* Responsive adjustments */ 
 @media screen and (max-width: 768px) {
