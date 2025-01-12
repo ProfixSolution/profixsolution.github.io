@@ -439,7 +439,7 @@ a.slidebtn i{margin-left:10px;}
 
 /* Styling for the contact list */
 .contact-info .about-description {list-style-type: none; padding: 0;}
-.contact-info .about-description li {display: flex; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
+.contact-info .about-description li {display: inline; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
 .contact-info .about-description li a {text-decoration: none; color: #333; padding-left: 10px;}
 .contact-info .about-description li a:hover {color: #007bff;}
 
