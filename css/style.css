@@ -418,22 +418,85 @@ a.slidebtn i{margin-left:10px;}
 /*********************************************
            newsletter_wrap Style
 **********************************************/
-.contact-section{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:73px 0px;}
-.contact-contact{position:relative; display:flex; width: 50%; flex-direction:row; justify-content:space-between; align-items:center;}
-.contact-logos{position:relative; display:flex; width: 50%; flex-direction:row; justify-content:space-between; align-items:center;}
+/* Contact section container */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
 
+/* Contact details section */
+.contact-contact {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
-.contact-header {position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
-.contact-header h2 {font-size: 1.5rem; font-weight: 300; color: #d5d5d5;}
-.contact-header p {font-size: 1rem; color: #d5d5d5;}
+/* Contact info list styling */
+.contact-contact ul.about-description {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
-.contact-info .about-description {list-style-type: none; padding: 10;}
-.contact-info .about-description li {position:center; display: inline; align-items: center; font-size: 1rem; margin-bottom: 10px;}
-.contact-info .about-description li a {text-decoration: none; color: #d5d5d5; padding: 30px}
-.contact-info .about-description li a:hover {color: #666;}
-.contact-info .about-description li i {font-size: 1.5rem; color: #d5d5d5;}
+.contact-contact ul.about-description li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
 
+.contact-contact ul.about-description li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 10px;
+}
 
+.contact-contact ul.about-description li a:hover {
+    color: #007bff;
+}
+
+.contact-contact ul.about-description li i {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+/* Logo section styling */
+.contact-logos {
+    flex: 0 0 auto; /* Keeps the logo section from growing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* Styling the logo */
+.contact-logos .logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Stack the contact sections on smaller screens */
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-contact,
+    .contact-logos {
+        width: 100%;
+    }
+
+    .contact-contact {
+        margin-bottom: 30px;
+    }
+}
 .newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
 .newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
 .newletter_des form{position:relative; width:55%;}
