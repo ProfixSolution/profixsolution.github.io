@@ -415,12 +415,6 @@ a.slidebtn i{margin-left:10px;}
 .contactWrapp .contact-map #map{}	
 .contactWrapp .contact-map #map iframe{margin-bottom:-5px; height:583px; width:100%;}
 .contactWrapp .pos_ab{position:absolute; top:0px; width:100%; left:0px; height:100%;}
-.contactWrapp .form__head{display:flex;height:100%; flex-direction:column; padding:58px 40px; background:#e3b000; justify-content:space-around;}
-.contactWrapp .form__head .section-title{text-align:left; position:relative; margin-bottom:20px;}
-.contactWrapp .form__head .section-title h5{color:#ffffff;}
-.contactWrapp .form__head .form{position:relative;}
-.contactWrapp .form__head .form-control{height:58px; width:100%; padding-left:15px; box-shadow:none; text-shadow:none; border:1px solid #fff; background:#fff; border-radius:5px; color:#666666; font-family:'Jost', sans-serif; font-size:15px;}
-.contactWrapp .form__head .form .btn{transition:all 0.2s ease-out 0s; background:#212529; color:#fff; font-family:'Jost', sans-serif; border-radius:5px; margin:0px; border-color:#212529; padding:16px 50px; letter-spacing:0px; font-size:16px; width:100%;}
 /*********************************************
            newsletter_wrap Style
 **********************************************/
@@ -436,62 +430,23 @@ a.slidebtn i{margin-left:10px;}
            contact  
 *********************************************/
 /* Styling for the contact container */
-.contact-container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+.contact-container {width: 100%; margin: 0 auto; padding: 20px; background-color: #f4f4f4; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
 
 /* Styling for the header section */
-.contact-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.contact-header h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #333;
-}
-
-.contact-header p {
-    font-size: 1rem;
-    color: #666;
-}
+.contact-header {text-align: center; margin-bottom: 30px;}
+.contact-header h2 {font-size: 2rem; font-weight: 700; color: #333;}
+.contact-header p {font-size: 1rem; color: #666;}
 
 /* Styling for the contact list */
-.contact-info .about-description {
-    list-style-type: none;
-    padding: 0;
-}
-
-.contact-info .about-description li {
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-}
-
-.contact-info .about-description li a {
-    text-decoration: none;
-    color: #333;
-    padding-left: 10px;
-}
-
-.contact-info .about-description li a:hover {
-    color: #007bff;
-}
+.contact-info .about-description {list-style-type: none; padding: 0;}
+.contact-info .about-description li {display: flex; align-items: center; font-size: 1.1rem; margin-bottom: 15px;}
+.contact-info .about-description li a {text-decoration: none; color: #333; padding-left: 10px;}
+.contact-info .about-description li a:hover {color: #007bff;}
 
 /* Icon styling */
-.contact-info .about-description li i {
-    font-size: 1.5rem;
-    color: #007bff;
-}
+.contact-info .about-description li i {font-size: 2.5rem; color: #007bff;}
 
-/* Responsive adjustments */
+/* Responsive adjustments */ 
 @media screen and (max-width: 768px) {
     .contact-container {
         width: 90%;
