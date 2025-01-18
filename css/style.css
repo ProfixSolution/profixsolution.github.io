@@ -413,12 +413,15 @@ a.slidebtn i{margin-left:10px;}
 **********************************************/
 .ct_newsletter_wrap{position:relative; background:url(../images/pattern-footer.jpg) repeat; padding:73px 0px;}
 .newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
-.newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
-.newletter_des .about-description {list-style-type: none; padding: 0; margin: 0; text-align: left;}
-.newletter_des .about-description li {margin-bottom: 1px; font-size: 1.1rem; color: #666; display: flex; align-items: center;}
-.newletter_des .about-description li a {text-decoration: none; color: #007bff; font-weight: 300; transition: color 0.3s ease;}
-.newletter_des .about-description li a:hover {color: #e3b000;}
-.newletter_des .about-description li i {color: #007bff; margin-right: 10px; font-size: 1rem;}
+.newletter_des h3{font-size:24px; font-weight:bold; margin:0px;}
+.newletter_des p{font-size:14px; font-weight:bold; margin:0px;}
+.newletter_des .contact-slogan p{font-size:14px; font-weight:bold; margin:0px;}
+.newletter_des .contact-info {list-style-type: none; padding: 0; margin: 0; text-align: left;}
+.newletter_des .contact-info li {margin-bottom: 1px; font-size: 1.1rem; color: #666; display: flex; align-items: center;}
+.newletter_des .contact-info li a {text-decoration: none; color: #007bff; font-weight: 300; transition: color 0.3s ease;}
+.newletter_des .contact-info li a:hover {color: #e3b000;}
+.newletter_des .contact-info li i {color: #007bff; margin-right: 10px; font-size: 1rem;}
+
 
 /*********************************************
            contactWrapp Style
