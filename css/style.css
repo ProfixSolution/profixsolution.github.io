@@ -415,7 +415,7 @@ a.slidebtn i{margin-left:10px;}
 .newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
 .newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
 .newletter_des .about-description {list-style-type: none; padding: 0; margin: 0; text-align: left;}
-.newletter_des .about-description li {margin-bottom: 15px; font-size: 1.1rem; color: #666; display: flex; align-items: center;}
+.newletter_des .about-description li {margin-bottom: 5px; font-size: 1.1rem; color: #666; display: flex; align-items: center;}
 .newletter_des .about-description li a {text-decoration: none; color: #007bff; font-weight: 500; transition: color 0.3s ease;}
 .newletter_des .about-description li a:hover {color: #e3b000;}
 .newletter_des .about-description li i {color: #007bff; margin-right: 10px; font-size: 18px;}
@@ -428,97 +428,6 @@ a.slidebtn i{margin-left:10px;}
 .contactWrapp .contact-map #map{}	
 .contactWrapp .contact-map #map iframe{margin-bottom:-5px; height:583px; width:100%;}
 .contactWrapp .pos_ab{position:absolute; top:0px; width:100%; left:0px; height:100%;}
-/*********************************************
-           newsletter_wrap Style
-**********************************************/
-/* Contact section container */
-.contact-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 40px;
-}
-
-/* Contact details section */
-.contact-contact {
-    flex: 1;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Contact info list styling */
-.contact-contact ul.about-description {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contact-contact ul.about-description li {
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-}
-
-.contact-contact ul.about-description li a {
-    text-decoration: none;
-    color: #333;
-    padding-left: 10px;
-}
-
-.contact-contact ul.about-description li a:hover {
-    color: #007bff;
-}
-
-.contact-contact ul.about-description li i {
-    font-size: 1.5rem;
-    color: #007bff;
-}
-
-/* Logo section styling */
-.contact-logos {
-    flex: 0 0 auto; /* Keeps the logo section from growing */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-}
-
-/* Styling the logo */
-.contact-logos .logo img {
-    max-width: 200px;
-    height: auto;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    /* Stack the contact sections on smaller screens */
-    .contact-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact-contact,
-    .contact-logos {
-        width: 100%;
-    }
-
-    .contact-contact {
-        margin-bottom: 30px;
-    }
-}
-.newletter_des{position:relative; display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
-.newletter_des h3{font-size:28px; font-weight:bold; margin:0px;}
-.newletter_des form{position:relative; width:55%;}
-.newletter_des form label{position:absolute; top:20px; left:20px; color:#d5d5d5;}
-.newletter_des .form-control{border-radius:5px; border:1px solid #f1f1f1; box-shadow none; height:58px; background:#ececec; padding:5px 80px 5px 45px;}
-.newletter_des button{background:#333; border:none; border-radius:5px; position:absolute; right:5px; top:5px; height:48px; color:#fff; padding:0px 40px; font-weight:600; text-transform:uppercase;}
-.newletter_des button:hover{background:#e3b000;}
-
-
 
 /*********************************************
            footer Style
