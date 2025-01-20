@@ -425,7 +425,8 @@ a.slidebtn i{margin-left:10px;}
 .newletter_des .contact-inshurance i{color: #007bff; margin-right: 10px; font-size: 1rem;}
 .newletter_des .contact-verified p{font-size:14px; font-weight:bold; margin:0px;}
 .newletter_des .contact-verified i{color: #007bff; margin-right: 10px; font-size: 1rem;}
-.newletter_des .contact-logo{padding:10px 0px 10px 15px;}
+.newletter_des .contact-logo{padding:10px 0px 10px 15px;} 
+.newletter_des .contact-logo a:hover {color: #e3b000;}
 
 
 
