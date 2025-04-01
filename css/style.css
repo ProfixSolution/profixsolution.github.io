@@ -2,7 +2,7 @@
 @charset "utf-8"; /*********************************************
            Fonts
 **********************************************/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap'); /*********************************************
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*********************************************
            General Style
 **********************************************/
 html{overflow-x:hidden !important; overflow-y:scroll !important; height:100%;}
@@ -63,7 +63,7 @@ img, svg{max-width:100%;}
 100%{transform:translateY(0px);}
 }
 .navigation-bg{background:#e3b000; border-radius:5px;}
-.navigation-bg .logo{padding:10px 0px 10px 15px;}
+.navigation-bg .logo{padding:10px 0px 10px 15px; font-family: 'Montserrat', sans-serif;}
 .navigation-bg .navbar{padding:0px;}
 .navbar-nav .nav-item{position:relative;}
 .navbar-light .navbar-nav .nav-link {padding:34px 20px; color:#ffffff; font-size:13px; font-style:normal; font-weight:600; text-transform:none; line-height:25px; letter-spacing:0px; position:relative; transition:all 100ms linear;}
