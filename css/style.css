@@ -6,7 +6,7 @@
            General Style
 **********************************************/
 html{overflow-x:hidden !important; overflow-y:scroll !important; height:100%;}
-body{margin:0; padding:0; font-weight:400; font-size:14px; height:100%; color:#fff; background:#222; font-family:'Open Sans', sans-serif;}
+body{margin:0; padding:0; font-weight:400; font-size:18px; height:100%; color:#fff; background:#222; font-family:'Open Sans', sans-serif;}
 h1, h2, h3, h4, h5, h6{font-family:'Jost', sans-serif;}
 img, svg{max-width:100%;}
 .section-title{text-align:center; position:relative; margin-bottom:50px;}
