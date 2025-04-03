@@ -6,13 +6,13 @@
            General Style
 **********************************************/
 html{overflow-x:hidden !important; overflow-y:scroll !important; height:100%;}
-body{margin:0; padding:0; font-weight:400; font-size:16px; height:100%; color:#fff; background:#222; font-family: 'Montserrat', sans-serif;}
+body{margin:0; padding:0; font-weight:400; font-size:1rem; height:100%; color:#fff; background:#222; font-family: 'Montserrat', sans-serif;}
 h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
 img, svg{max-width:100%;}
 .section-title{text-align:center; position:relative; margin-bottom:50px;}
-.section-title h5{text-transform:uppercase; font-size:16px; font-weight:600; color:#b2b2b2;}
+.section-title h5{text-transform:uppercase; font-size:1rem; font-weight:600; color:#b2b2b2;}
 .section-title h3{color:#fff; font-size:45px; line-height:50px; margin-bottom:20px; font-weight:600;}
-.readmore a{transition:all 0.2s ease-out 0s; background:#212529; color:#fff; font-family:'Jost', sans-serif;border-radius:5px; margin:0px; padding:16px 50px; letter-spacing:0px; font-size:16px;}
+.readmore a{transition:all 0.2s ease-out 0s; background:#212529; color:#fff; font-family:'Jost', sans-serif;border-radius:5px; margin:0px; padding:16px 50px; letter-spacing:0px; font-size:1rem;}
 /*********************************************
            Cursor Style
 **********************************************/
@@ -38,14 +38,14 @@ img, svg{max-width:100%;}
 **********************************************/
 .top-bar{background:url(../images/top-bar-img.jpg) no-repeat top; background-size:cover; height:110px; z-index:99;}
 .topbar-left{text-align:left; padding:17px 0px 0px;}
-.topbar-left ul{list-style:none; margin-bottom:0px; font-size:14px; font-family: 'Montserrat', sans-serif; font-weight: 400; padding-left:0px;}
-.topbar-left li{color:#222222; margin:0px; display:inline-block; font-size:14px; font-family: 'Montserrat', sans-serif; font-weight: 400; line-height:28px; padding-right:20px; border-right:1px solid #222222;}
-.topbar-left li:nth-child(2){border-right:0px; font-size:14px; font-family: 'Montserrat', sans-serif; font-weight: 400; padding-left:20px; padding-right:0px; } 
+.topbar-left ul{list-style:none; margin-bottom:0px; font-size:0.875rem; font-family: 'Montserrat', sans-serif; font-weight: 400; padding-left:0px;}
+.topbar-left li{color:#222222; margin:0px; display:inline-block; font-size:0.875rem; font-family: 'Montserrat', sans-serif; font-weight: 400; line-height:28px; padding-right:20px; border-right:1px solid #222222;}
+.topbar-left li:nth-child(2){border-right:0px; font-size:0.875rem; font-family: 'Montserrat', sans-serif; font-weight: 400; padding-left:20px; padding-right:0px; } 
 .topbar-left li a{text-decoration:none; color:#222222;}
 .topbar-left li:nth-child(2) i {font-size:22px;}
 .topbar-left li i{padding-right:8px; font-size:14px; color:#222;}
 .topbar-right{text-align:right; padding:17px 0px 0px;}
-.topbar-right p{display:inline-block; color:#222; font-family: 'Montserrat', sans-serif; font-size:14px; font-weight: 400;}
+.topbar-right p{display:inline-block; color:#222; font-family: 'Montserrat', sans-serif; font-size:0.875rem; font-weight: 400;}
 .topbar-right ul {display:inline-block; list-style:none; padding-left:0px;}
 .topbar-right ul li{display:inline-block; padding-left:8px;}
 .topbar-right ul li a{color:#222222; text-decoration:none;}
@@ -66,7 +66,7 @@ img, svg{max-width:100%;}
 .navigation-bg .logo{padding:10px 0px 10px 15px; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size:20px;}
 .navigation-bg .navbar{padding:0px;}
 .navbar-nav .nav-item{position:relative;}
-.navbar-light .navbar-nav .nav-link {padding:34px 20px; color:#ffffff; font-size:16px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-transform:none; line-height:25px; letter-spacing:0px; position:relative; transition:all 100ms linear;}
+.navbar-light .navbar-nav .nav-link {padding:34px 20px; color:#ffffff; font-size:1rem; font-family: 'Montserrat', sans-serif; font-weight: 800; text-transform:none; line-height:25px; letter-spacing:0px; position:relative; transition:all 100ms linear;}
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link:hover{color:#ffffff; background:#333;}
 .navbar-light .navbar-toggler{display:none;}
 .navbar-brand{display:none;}
